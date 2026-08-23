@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFest 2026</title>
+</head>
+<body>
+    <header align="center">
+        <h1>TechFest 2026</h1>
+        <p>Learn • Create • Innovate</p>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#events">Events</a> |
+            <a href="#register">Register</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="home">
+            <h2 align="center">Welcome to TechFest</h2>
+            <p align="justify">
+                TechFest 2026 is a student-focused technology event where participants
+                can explore programming, web development, artificial intelligence and
+                emerging technologies. The event includes technical sessions, creative
+                challenges and exciting activities designed to improve practical skills.
+            </p>
+            <div align="center">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4"
+                     alt="Technology Event" width="600" height="350">
+            </div>
+        </section>
+        <hr>
+        <section id="events">
+            <h2 align="center">Featured Events</h2>
+            <table border="1" cellpadding="10" align="center">
+                <tr>
+                    <th>Event</th>
+                    <th>Category</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>Code Challenge</td>
+                    <td>Programming</td>
+                    <td>10:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Web Design Contest</td>
+                    <td>Web Development</td>
+                    <td>12:00 PM</td>
+                </tr>
+                <tr>
+                    <td>AI Innovation Talk</td>
+                    <td>Artificial Intelligence</td>
+                    <td>2:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Quiz Competition</td>
+                    <td>Technology</td>
+                    <td>4:00 PM</td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <section id="register">
+            <h2 align="center">Event Registration</h2>
+            <form>
+                <fieldset>
+                    <legend>Participant Details</legend>
+                    <p>
+                        <label for="name">Full Name:</label><br>
+                        <input type="text" id="name" name="name"
+                               placeholder="Enter your full name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"
+                               placeholder="example@gmail.com" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone Number:</label><br>
+                        <input type="tel" id="phone" name="phone"
+                               placeholder="9876543210" pattern="[0-9]{10}" required>
+                    </p>
+                    <p>
+                        <label for="age">Age:</label><br>
+                        <input type="number" id="age" name="age"
+                               min="16" max="60" required>
+                    </p>
+                    <p>
+                        <label for="date">Event Date:</label><br>
+                        <input type="date" id="date" name="date" required>
+                    </p>
+                    <p>
+                        <label for="time">Preferred Time:</label><br>
+                        <input type="time" id="time" name="time">
+                    </p>
+                    <p>
+                        <label for="website">Portfolio Website:</label><br>
+                        <input type="url" id="website" name="website"
+                               placeholder="https://example.com">
+                    </p>
+                    <p>
+                        <label for="course">Course:</label><br>
+                        <select id="course" name="course" required>
+                            <option value="">Select Course</option>
+                            <option value="bsc">B.Sc Computer Science</option>
+                            <option value="bca">BCA</option>
+                            <option value="be">B.E Computer Science</option>
+                            <option value="btech">B.Tech IT</option>
+                            <option value="mca">MCA</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Gender:</label><br>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </p>
+                    <p>
+                        <label>Interested Areas:</label><br>
+                        <input type="checkbox" id="html" name="interest" value="html">
+                        <label for="html">HTML</label>
+                        <input type="checkbox" id="ai" name="interest" value="ai">
+                        <label for="ai">AI</label>
+                        <input type="checkbox" id="web" name="interest" value="web">
+                        <label for="web">Web Development</label>
+                    </p>
+                    <p>
+                        <label for="color">Favourite Theme Color:</label><br>
+                        <input type="color" id="color" name="color">
+                    </p>
+                    <p>
+                        <label for="experience">Skill Level:</label><br>
+                        <input type="range" id="experience" name="experience"
+                               min="1" max="10" value="5">
+                    </p>
+                    <p>
+                        <label for="message">Why do you want to attend?</label><br>
+                        <textarea id="message" name="message" rows="5" cols="50"
+                                  placeholder="Write your message here..." required></textarea>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the terms and conditions.</label>
+                    </p>
+                    <p align="center">
+                        <input type="submit" value="Register Now">
+                        <input type="reset" value="Clear Form">
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+        <hr>
+        <section id="contact">
+            <h2 align="center">Contact Us</h2>
+            <p align="center">
+                Chennai, Tamil Nadu<br>
+                techfest@example.com<br>
+                +91 98765 43210
+            </p>
+        </section>
+    </main>
+    <hr>
+    <footer align="center">
+        <p>TechFest 2026</p>
+        <p>© 2026 TechFest. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
