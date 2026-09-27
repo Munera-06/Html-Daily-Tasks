@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 
 This is my **Day 1 HTML Task**, created using basic HTML tags and elements.
-
+   
 The task is based on **Arya Bhavan**, a popular pure-vegetarian South Indian restaurant. The webpage provides information about the restaurant, its food specialties, highlights, and locations.
 
 ##  Output Screenshot
